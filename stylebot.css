@@ -10,7 +10,8 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #e0e0e0;
+    transition: all 0.5s;
   }
   
   .game-container {
@@ -23,6 +24,7 @@
   
   h1 {
     margin-bottom: 20px;
+    transition: all 0.5s;
   }
   
   .board {
@@ -52,10 +54,13 @@
     color: white;
     border: none;
     cursor: pointer;
+    transition: all 0.5s;
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #29642c;
+    transition: all 0.5s;
+    animation: revert;
   }
   
   #message {
